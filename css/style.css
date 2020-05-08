@@ -1,0 +1,153 @@
+
+@font-face{
+  font-family:"BasierMono";
+  src: url(../fonts/BasierSquareMono-Regular.otf);
+}
+
+  @font-face {
+    font-family:"Archia";
+    src: url(../fonts/Archia-Regular.otf);
+  
+  }
+  body {
+    font-family: BasierMono;
+    background-color: #D2D5DA;
+    margin: 0;
+    width: 96vw;
+    margin: 0 auto;
+    max-width: 1440px;
+  }
+
+  .Thinking{
+    margin-top: 100px;
+    margin-left: 100px;
+    font-size: 50px;
+    animation-fill-mode: backwards;
+  }
+
+
+
+header {
+  display:flex;
+  justify-content: flex-end;
+  padding-top: 50px;
+  padding-right: 16px;
+  
+}
+
+a{
+  
+align-content: flex-end;
+ margin-right: 32px;
+ color: black;
+
+}
+
+p{
+  margin-right: 32px;
+}
+.project{
+  margin-top: 400px;
+  
+  display: flex;
+}
+
+.project-image {
+  margin-right: 89px;
+  width: 50%;
+  margin-top: 200px;
+}
+
+.project-image img {
+  width: 100%;
+  max-height: 420px;
+}
+
+.project-info {
+  
+  width: 50%;
+height: 50;
+
+
+}
+
+button {
+  font-family: BasierMono;
+  margin-top: 50px;
+  width: 165px;
+  height: 46px;
+  border: 1px solid black;
+  font-size: 18px;
+  line-height: 28px;
+  padding: 0;
+  cursor: pointer;
+  outline: none;
+  background-color: black;
+  color: whitesmoke; 
+  
+}
+
+button:hover {
+  background-color: whitesmoke;
+  color: black;
+}
+
+button:active {
+  background-color: black
+  color: white;
+}
+.project{
+  flex-direction: row-reverse;
+}
+.project2{
+  display: flex;
+  align-items: center;
+  margin-top: 100px;
+  margin-bottom: 300px;
+}
+
+.project-image2{
+  margin-right: 89px;
+  width: 50%;
+  margin-top: 200px;
+}
+
+.project3{
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  margin-top: 0px;
+  margin-bottom: 420px;
+}
+
+.project-image3{
+  margin-left: 89px;
+  width: 50%;
+  margin-top: 200px;
+}
+.About{
+  align-content: right;
+  
+}
+h4{
+  font-size: 32px;
+
+}
+div#Texto p{
+  max-width: 500px;
+  margin-top: 5px;
+  text-align: center;
+}
+.texto2{
+  font-size: 36px;
+  text-align: right;
+}
+
+#Texto2 p{
+
+  text-align: right;
+}
+.Contacto{
+  text-align: right;
+  justify-content: flex-end;
+}
